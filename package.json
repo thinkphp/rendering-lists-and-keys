@@ -1,5 +1,5 @@
 {
-  "name": "react-lists-keys-demo",
+  "name": "rendering-lists-and-keys",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -7,13 +7,15 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy":"npm run build && gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "@vitejs/plugin-react": "^latest",
+    "gh-pages": "^6.3.0",
     "vite": "^6.0.0"
   }
 }
